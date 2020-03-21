@@ -1,0 +1,53 @@
+body{
+    background: black;
+}
+
+
+div
+{
+    width: 70%;
+    display: table;
+    background: black;
+    margin: 50px auto;
+}
+
+
+@keyframes svgAnim 
+{
+
+    from
+    {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        fill: transparent;
+    }
+    to
+    {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 5 ;
+        fill: rgba(255, 255, 255, 0.322);
+    }
+
+}
+
+
+.svg
+{
+    width: 100%;
+    display: block;
+    margin:  auto;
+}
+
+.txt 
+{
+    fill: transparent;
+    width: 50%;
+    stroke: white;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 100;
+    filter: drop-shadow(2px 2px 25px rgba(255, 255, 255, 0.65));
+    animation: svgAnim 6s linear forwards;
+
+}
