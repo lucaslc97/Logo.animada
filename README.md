@@ -1,5 +1,5 @@
 # Logo.animada
- Logo simples animada feita com SVG e CSS.
+ Simples logo animada, criada com SVG e CSS
 
 
 Link para visualizar: https://lucaslc97.github.io/Logo.animada/
